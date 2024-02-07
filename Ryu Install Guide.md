@@ -1,6 +1,6 @@
-## Installing _Ryu_ on _Ubuntu 20.4.1 LTS_
+## Installing *Ryu* on *Ubuntu 20.4.1 LTS*
 
-!! _you need to install python 3.8_ !!
+!! *you need to install python 3.8* !!
 
 ```shell
 $ wget https://bootstrap.pypa.io/get-pip.py
@@ -14,14 +14,14 @@ $ python3.8 -m pip install eventlet==0.30.2 //this version is compatible
 
 ---
 
-## Installing _Ryu_ on _Windows_
+## Installing *Ryu* on *Windows*
 
-!! _you need to install python 3.8
+!! *you need to install python 3.8
 then go to the python directory where you installed it
 then open up a CMD as administrator
-then run the following commands_ !!
+then run the following commands* !!
 
-!! _You can also add `python.exe` to your `$Path` system variable_ !!
+!! *You can also add `python.exe` to your `$Path` system variable* !!
 
 ```shell
 $ py get-pip.py
@@ -31,7 +31,7 @@ $ py -m pip install eventlet==0.30.2
 $ py -m pip install packaging
 ```
 
--   In order to connect Mininet topology to Ryu controller, use the command below:
+- In order to connect Mininet topology to Ryu controller, use the command below:
 
 ```shell
 $ mn --controller=remote,ip=xxx.xxx.xxx.xxx,port=6633
